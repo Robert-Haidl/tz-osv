@@ -2887,6 +2887,13 @@
 
 /* Header */
 
+	.logo{
+		float:left;
+		width:40px;
+		MARGIN-LEFT: 1%;
+		margin-top: 0.5%;
+	}
+
 	#page-wrapper {
 		padding-top: 3em;
 	}
@@ -3168,10 +3175,10 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("../images/bg.jpg");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
+		background-image: url("../images/overlay.png"), url("../images/bg.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
