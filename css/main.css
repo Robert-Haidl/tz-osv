@@ -7,13 +7,27 @@
 	width: 25%;
 }
 
+.team{
+	max-height: 150px;
+}
 
+a, a:hover{
+	text-decoration: none;
+	color: unset;
+}
 
+.c-primary{
+	color: darkgreen !important;
+	font-style: italic;
+}
+.c-primary:hover{
+	border-bottom: darkgreen dotted 1px;
+}
 
-
-
-
-
+.heading{
+	font-weight: 800;
+	letter-spacing: 2px;
+}
 
 
 	html, body, div, span, applet, object,
@@ -127,8 +141,8 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #e89980;
+		/*border-bottom: dotted 1px;*/
+		/*color: darkgreen;*/
 		text-decoration: none;
 	}
 
@@ -2114,8 +2128,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: darkgreen;
+			box-shadow: 0 0 0 2px darkgreen;
 		}
 
 	select {
@@ -2220,8 +2234,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e89980;
-			box-shadow: 0 0 0 1px #e89980;
+			border-color: darkgreen;
+			box-shadow: 0 0 0 1px darkgreen;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2427,7 +2441,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: darkgreen;
 				color: #ffffff;
 			}
 
@@ -2853,7 +2867,7 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e89980;
+			background-color: darkgreen;
 			color: #ffffff !important;
 		}
 
@@ -3134,7 +3148,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: darkgreen;
 				color: #ffffff;
 			}
 
@@ -3165,10 +3179,30 @@
 
 /* Banner */
 
-	#banner {
-		background-attachment: scroll,							fixed;
+
+	.banner-team {
+		background-attachment: fixed;
 		background-color: #666;
-		background-image: url("../images/overlay.png"), url("../images/bg.jpg");
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		  ), url("../images/team.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+	.banner-index{
+		background-attachment: fixed;
+		background-color: #666;
+		background-image:
+		  linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		  ), url("../images/bg.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3308,7 +3342,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: darkgreen;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3330,7 +3364,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: darkgreen;
 		}
 
 		#cta input[type="text"],
@@ -3408,7 +3442,7 @@
 		/* Banner */
 
 			#banner {
-				background-attachment: scroll;
+				/*background-attachment: scroll;*/
 			}
 
 				#banner h2 {
