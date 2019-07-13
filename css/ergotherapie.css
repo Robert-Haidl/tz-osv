@@ -2,8 +2,13 @@
     width:18%;
     padding:1%;
     margin-top: 7%;
+    transition: all .2s ease-in-out;
 }
 
 .major p{
-    margin: 5%;
+    
+}
+
+.major img:hover {
+    transform: scale(1.1);
 }
