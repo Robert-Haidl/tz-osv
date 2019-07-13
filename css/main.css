@@ -3202,6 +3202,97 @@ a, a:hover{
 		text-align: center;
 	}
 
+	.banner-craniosacral {
+		background-attachment: fixed;
+		background-color: #666;
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		  ), url("../images/team.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+	.banner-ergotherapie {
+		background-attachment: fixed;
+		background-color: #666;
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		  ), url("../images/team.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+	.banner-legasthenie {
+		background-attachment: fixed;
+		background-color: #666;
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		  ), url("../images/team.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+	.banner-logopedie {
+		background-attachment: fixed;
+		background-color: #666;
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		  ), url("../images/team.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+	.banner-neurofeedback {
+		background-attachment: fixed;
+		background-color: #666;
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		  ), url("../images/team.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+	.banner-psychologie {
+		background-attachment: fixed;
+		background-color: #666;
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3), 
+			rgba(0, 0, 0, 0.3)
+		  ), url("../images/team.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+	
+
 	.banner-index{
 		background-attachment: fixed;
 		background-color: #666;
