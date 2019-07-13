@@ -3186,6 +3186,12 @@ a, a:hover{
 
 /* Banner */
 
+@media only screen and (max-width: 600px) {
+	#banner{
+		background-attachment: inherit !important;
+	}
+  }
+
 
 	.banner-team {
 		background-attachment: fixed;
@@ -3223,7 +3229,7 @@ a, a:hover{
 		background-image: linear-gradient(
 			rgba(0, 0, 0, 0.3), 
 			rgba(0, 0, 0, 0.3)
-		  ), url("../images/team.jpg");
+		  ), url("../images/ergotherapie.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
