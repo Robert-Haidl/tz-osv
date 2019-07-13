@@ -1,0 +1,38 @@
+header.major {
+    text-align: left;
+}
+
+img {
+    float: right;
+    width: 20%;
+    margin-right: 10%;
+}
+
+h2 {
+    font-size: 2.25em;
+    line-height: 1.5em;
+    padding-bottom: 5%;
+    letter-spacing: -0.035em;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.menu {
+    text-decoration: underline;
+    margin-top: 5%;
+}
+
+.banner-index {
+    background-attachment: fixed;
+    background-color: #666;
+    background-image: linear-gradient(
+ rgba(0, 0, 0, 0.3), 
+ rgba(0, 0, 0, 0.3)
+ ), url(../images/team.jpg);
+    background-position: top left,	center center;
+    background-repeat: repeat,	no-repeat;
+    background-size: auto,	cover;
+    color: #fff;
+    padding: 12em 0 20em 0;
+    text-align: center;
+}
