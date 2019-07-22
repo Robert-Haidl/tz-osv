@@ -1,0 +1,43 @@
+.banner-neurotherapie {
+    background-attachment: fixed;
+    background-color: #666;
+    background-image: linear-gradient(
+ rgba(0, 0, 0, 0.3), 
+ rgba(0, 0, 0, 0.3)
+ ), url(../images/ergotherapie.jpg);
+    background-position: top left,	center center;
+    background-repeat: repeat,	no-repeat;
+    background-size: auto,	cover;
+    color: #fff;
+    padding: 12em 0 20em 0;
+    text-align: center;
+}
+
+
+img {
+    float: right;
+    width: 20%;
+    margin-right: 10%;
+}
+
+.section {
+    padding-top: 3%;
+    padding-bottom:3%;
+    text-align: justify;
+}
+
+.menu{
+    text-decoration: underline;
+    margin-top: 5%;
+    
+}
+
+.section-top {
+    padding-top: 6%;
+    padding-bottom:3%;
+    text-align: justify;
+}
+
+.content{
+    text-align:left;
+}
